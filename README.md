@@ -28,9 +28,10 @@ Enterprise-grade agentic observability platform leveraging multi-agent orchestra
 ### Key Features
 
 - **Multi-Agent Architecture**: Coordinated agents for detection, memory, reasoning, and action
+- **HuggingFace LLM Integration**: Llama 3 8B Instruct for intelligent root cause analysis with smart mock fallback
 - **Production Patterns**: Circuit breakers, exponential backoff, comprehensive observability
 - **Async-First Design**: Full async/await for high-throughput processing
-- **Enterprise Integrations**: OpenTelemetry; TimescaleDB/Qdrant via Docker Compose; optional LLM integration
+- **Enterprise Integrations**: OpenTelemetry; TimescaleDB/Qdrant via Docker Compose
 - **RAG-Enhanced Analysis**: Context-aware anomaly investigation with vector memory
 
 ---
@@ -64,7 +65,7 @@ Enterprise-grade agentic observability platform leveraging multi-agent orchestra
 
 - **Anomaly Detection Agent**: Statistical & ML-based anomaly identification
 - **RAG Memory Agent**: Contextual retrieval of historical incidents and patterns
-- **Reasoning Agent**: Rule-based mock by default (pluggable LLM integration)
+- **Reasoning Agent**: HuggingFace Llama 3 LLM with fallback to rule-based mock
 - **Action Agent**: Automated remediation and alerting orchestration
 
 ---
@@ -130,7 +131,7 @@ open http://localhost:8000/docs
 
 Key configuration in `.env`:
 
-- `ANTHROPIC_API_KEY`: Optional (only needed if you swap in an LLM-backed reasoning agent)
+- `HUGGINGFACE_TOKEN`: HuggingFace API token for Llama 3 reasoning (free tier available)
 - `TIMESCALE_*`: TimescaleDB connection parameters
 - `OTEL_*`: OpenTelemetry configuration
 - `ANOMALY_THRESHOLD`: Detection sensitivity (0.0-1.0)
