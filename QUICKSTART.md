@@ -8,7 +8,7 @@ Follow these steps to get the agentic observability demo running locally.
 
 ```bash
 # Navigate to project directory
-cd /Users/vishalkhadake/Documents/agentic-observability
+cd ~/agentic-observability
 
 # Create Python virtual environment (project targets Python 3.11+)
 python -m venv .venv
