@@ -6,7 +6,7 @@
 
 ## Architecture Overview
 
-This document describes the architecture of a production-grade multi-agent system for anomaly detection and root cause analysis, designed to demonstrate Senior Staff ML Engineering capabilities.
+This document describes the architecture of a production-grade multi-agent system for anomaly detection and root cause analysis, designed to demonstrate Engineering capabilities.
 
 Canonical runtime walkthrough:
 
