@@ -1,9 +1,5 @@
 # Quick Start Guide
 
-For the full end-to-end explanation (entrypoints, stage outputs, storage, metrics), read:
-
-- [MASTER_GUIDE.md](MASTER_GUIDE.md)
-
 ## Initial Setup
 
 Follow these steps to get the agentic observability demo running locally.
