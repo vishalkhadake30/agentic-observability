@@ -23,7 +23,23 @@ Supporting docs:
 
 ## Overview
 
-Enterprise-grade agentic observability platform leveraging multi-agent orchestration for real-time anomaly detection and automated root cause analysis. Built to demonstrate advanced ML engineering capabilities.
+Enterprise-grade agentic observability **framework** demonstrating production-ready multi-agent orchestration for anomaly detection and root cause analysis. Built to showcase advanced ML engineering patterns and architecture.
+
+### 🎯 Project Status
+
+**Production-Ready Framework | Demo Stage**
+
+- ✅ **Enterprise resilience patterns** implemented (circuit breakers, exponential backoff, observability)
+- ✅ **Multi-agent coordination** with full async/await architecture
+- ✅ **HuggingFace Llama 3 8B Instruct** integration with intelligent mock fallback
+- ✅ **Comprehensive test coverage** of core agent logic, circuit breakers, and retry mechanisms
+- ✅ **Cloud-ready deployment** - compatible with Railway, Render, Fly.io, Cloud Run, Kubernetes, or legacy systems
+- ⚠️ **Currently uses synthetic/mock data** for demonstrations (real data pipeline implementation in progress)
+- 📊 **Framework ready for integration** with real observability platforms (Prometheus, Datadog, New Relic, etc.)
+
+**Use Case:** Demonstrates production-grade ML engineering for building scalable multi-agent AI systems. Architecture is production-ready and can be adapted for real-world observability platforms.
+
+---
 
 ### Key Features
 
