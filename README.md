@@ -7,17 +7,11 @@
 
 ---
 
-## Canonical Documentation
+## Quick Start
 
-Read this first:
+See [QUICKSTART.md](QUICKSTART.md) for installation and setup instructions.
 
-- **[MASTER_GUIDE.md](MASTER_GUIDE.md)** — single source of truth (entrypoints, pipeline I/O, intermediate outputs, storage, observability)
-
-Supporting docs:
-
-- [QUICKSTART.md](QUICKSTART.md)
-- [API_TESTING_GUIDE.md](API_TESTING_GUIDE.md)
-- [ARCHITECTURE.md](ARCHITECTURE.md)
+For architecture details, see [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ---
 
