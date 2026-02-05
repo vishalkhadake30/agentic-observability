@@ -1,5 +1,5 @@
 # Agentic Observability Platform
-## Production-Grade Multi-Agent System for Anomaly Detection & Root Cause Analysis
+## Multi-Agent System Demo for Anomaly Detection & Root Cause Analysis
 
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Enabled-green.svg)](https://fastapi.tiangolo.com/)
@@ -17,13 +17,13 @@ For architecture details, see [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ## Overview
 
-Enterprise-grade agentic observability **framework** demonstrating production-ready multi-agent orchestration for anomaly detection and root cause analysis. Built to showcase advanced ML engineering patterns and architecture.
+Multi-agent observability **framework** demonstrating coordinated AI agents for anomaly detection and root cause analysis. Built to showcase ML engineering patterns.
 
-### Project Status
+### 🎯 Project Status
 
-**Production-Ready Framework | Demo Stage**
+**Demo Framework | Educational Project**
 
-- **Enterprise resilience patterns** implemented (circuit breakers, exponential backoff, observability)
+- ✅ **Resilience patterns** implemented (circuit breakers, exponential backoff, observability)
 - **Multi-agent coordination** with full async/await architecture
 - **HuggingFace Llama 3 8B Instruct** integration with intelligent mock fallback
 - **Comprehensive test coverage** of core agent logic, circuit breakers, and retry mechanisms
@@ -31,7 +31,7 @@ Enterprise-grade agentic observability **framework** demonstrating production-re
 - **Currently uses synthetic/mock data** for demonstrations (real data pipeline implementation in progress)
 - **Framework ready for integration** with real observability platforms (Prometheus, Datadog, New Relic, etc.)
 
-**Use Case:** Demonstrates production-grade ML engineering for building scalable multi-agent AI systems. Architecture is production-ready and can be adapted for real-world observability platforms.
+**Use Case:** Demonstrates ML engineering patterns for multi-agent AI systems. Framework can be adapted for observability platforms.
 
 ---
 
@@ -208,7 +208,12 @@ Per-agent rate limits to prevent API quota exhaustion.
 
 ## Roadmap
 
-See [MASTER_GUIDE.md](MASTER_GUIDE.md#roadmap-safe-next-steps) for safe next steps that preserve production-grade patterns.
+## Next Steps
+
+Potential enhancements:
+- Implement synthetic data generator for realistic anomaly testing
+- Add integration tests with full data pipeline
+- Deploy demo to cloud platform (Railway/Render)
 
 ---
 

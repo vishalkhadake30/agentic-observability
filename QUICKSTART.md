@@ -6,7 +6,7 @@ For the full end-to-end explanation (entrypoints, stage outputs, storage, metric
 
 ## Initial Setup
 
-Follow these steps to get your production-grade agentic observability platform up and running.
+Follow these steps to get the agentic observability demo running locally.
 
 ### 1. Environment Setup
 
@@ -266,4 +266,4 @@ python --version  # Should be 3.11+
 
 For questions or issues specific to this demonstration project, please refer to the comprehensive documentation in [README.md](README.md) or examine the inline code documentation.
 
-This project demonstrates production-grade ML engineering capabilities.
+This project demonstrates ML engineering patterns for multi-agent systems.

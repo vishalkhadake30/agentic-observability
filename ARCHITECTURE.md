@@ -1,12 +1,12 @@
 # System Architecture
 
-## Production-Grade Agentic Observability Demo
+## Multi-Agent Observability Demo
 
 ---
 
 ## Architecture Overview
 
-This document describes the architecture of a production-grade multi-agent system for anomaly detection and root cause analysis, designed to demonstrate Engineering capabilities.
+This document describes the architecture of a multi-agent system demo for anomaly detection and root cause analysis, demonstrating ML engineering patterns.
 
 Canonical runtime walkthrough:
 
@@ -426,4 +426,4 @@ spec:
 
 ---
 
-This architecture demonstrates production-grade thinking.
+This architecture demonstrates resilience patterns for distributed systems.
