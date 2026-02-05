@@ -10,7 +10,6 @@ This document describes the architecture of a production-grade multi-agent syste
 
 Canonical runtime walkthrough:
 
-- [MASTER_GUIDE.md](MASTER_GUIDE.md)
 
 This file includes both **implemented** components and **planned/illustrative** components. The master guide is the source of truth for what runs today.
 
@@ -427,4 +426,4 @@ spec:
 
 ---
 
-This architecture demonstrates production-grade thinking with enterprise patterns.
+This architecture demonstrates production-grade thinking.
