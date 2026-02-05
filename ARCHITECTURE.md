@@ -1,6 +1,6 @@
 # System Architecture
 
-## Production-Grade Agentic Observability Platform
+## Production-Grade Agentic Observability Demo
 
 ---
 
