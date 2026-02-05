@@ -232,4 +232,4 @@ Demonstrating:
 
 ## License
 
-MIT License - See LICENSE file for details
+MIT License - See [LICENSE](https://github.com/vishalkhadake30/agentic-observability/blob/main/LICENSE) file for details
