@@ -19,11 +19,11 @@ For architecture details, see [ARCHITECTURE.md](ARCHITECTURE.md).
 
 Multi-agent observability **framework** demonstrating coordinated AI agents for anomaly detection and root cause analysis. Built to showcase ML engineering patterns.
 
-### 🎯 Project Status
+### Project Status
 
 **Demo Framework | Educational Project**
 
-- ✅ **Resilience patterns** implemented (circuit breakers, exponential backoff, observability)
+- **Resilience patterns** implemented (circuit breakers, exponential backoff, observability)
 - **Multi-agent coordination** with full async/await architecture
 - **HuggingFace Llama 3 8B Instruct** integration with intelligent mock fallback
 - **Comprehensive test coverage** of core agent logic, circuit breakers, and retry mechanisms
